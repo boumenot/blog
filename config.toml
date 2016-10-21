@@ -1,0 +1,43 @@
+baseurl = "http://boumenot.github.io/"
+title = "Ugly Stool"
+languageCode = "en-us"
+
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+theme = "blackburn"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  highlightjs = "googlecode"
+  dateFormat = "02 Jan 2006, 15:04"
+  brand = "Boumenot"
+
+  description = "Studies show that prolonged exposure may cause..."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+
+[social]
+ github  = "boumenot"
